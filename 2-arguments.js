@@ -1,13 +1,9 @@
 let arg = process.argv.slice(2);
 
-let input = arg.join(" ");
-
-if (input === ""){
+if (arg.length === 0){
   console.log("No argument");
-
-} else if (input === "Best"){
-  console.log("Argument found");
-
-}else if (input === "Best School"){
+}else if(arg.length === 1){
+  console.log("Arguement found");
+}else{
   console.log("Arguments found");
 }
