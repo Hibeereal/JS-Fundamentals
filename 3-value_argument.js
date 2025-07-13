@@ -1,5 +1,5 @@
 let arg = process.argv.slice(2);
-let user = arg.join(" ")
+let user = arg.join(" ");
 let firstWord = user.split(" ")[0];
 
 if (!firstWord){
